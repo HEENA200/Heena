@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    border: 2px;
+}
+/*.x{
+    width: 39%;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+button{
+    background-attachment: fixed;
+    background-color: burlywood;
+}*/
+.q{
+    background-image: url("https://wallpapercave.com/wp/wp2858563.jpg") ;
+    background-image: url("https://wallpapercave.com/wp/wp9345998.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: flex;
+    width: 100%;
+    margin:0 auto;
+    width: 100%;
+
+    /*background-size: cover;
+
+background-position: center;
+    width: 100%;
+    height: 100%*/
+}
