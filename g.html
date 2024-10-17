@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+</head>
+<style>
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+    .grid-container{
+       display: grid; 
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       grid-gap:10px;
+       padding: 10px;
+    }
+    .grid-item{
+        background-color: blueviolet;
+        color: aquamarine;
+        padding: 20px;
+        text-align: center;
+    }
+    p{
+      font-size: 20px;
+    }
+    
+</style> 
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+    </div>
+
+
+
+  <h1>CSS Grid Example</h1>
+  <p>Description: CSS Grid is a 2-dimensional layout system,
+  which means it can handle both rows and columns.
+  It’s great for building more complex layouts.
+  In this example, we'll create a 2x2 grid layout with 4 items.
+</p>
+<h2>Explanation:</h2>
+<h3>display: grid; creates a grid container.</h3>
+<h3>grid-template-columns: 1fr 1fr; defines two equal columns. The 1fr means one fraction of the available space.</h3>
+<h3>grid-gap: 10px; adds spacing between the grid items.</h3>
+<h3>The .grid-item styles set background color, padding, and text alignment.
+</h3></body>
+</html>
